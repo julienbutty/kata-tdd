@@ -1,0 +1,21 @@
+{
+    "name": "julienbutty/kata-tdd",
+    "require": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\FizzBuzz\\": "src/FizzBuzz",
+            "App\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julien Butty",
+            "email": "julienbutty@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "spatie/phpunit-watcher": "^1.23"
+    }
+}
